@@ -16,34 +16,36 @@ open ouput_csv/nba_stats.csv
 
 nba_stats per year csv description: 
 
-'Player': Name of the player
-'Pos': Position of the player
-'Age': Age
-'Tm': Team
-'G': Games
-'GS': Games Started
-'MP': Minutes Played Per Game
-'FG': field goals per game
-'FGA': Field goals attempts per game
-'FG%': field goal %
-'3P': 3 points fg per gam
-'3PA': 3 points attempts per game
-'3P%': 3 point %
-'2P': 2 points fg per game
-'2PA': 2 points attempts per game
-'2P%': 2 point %
-'eFG%': Effective field goal % (This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal.)
-'FT': free throws per game
-'FTA': free throws attempts per game
-'FT%': free throws %
-'ORB': offensive rebounds per game
-'DRB': defensive rebounds per game
-'TRB': total rebounds per game
-'AST': Assists per game
-'STL': Steals per game
-'BLK': blocks per game
-'TOV': turnovers per game
-'PF': Personal Fouls per game
-'PTS': points per game
+| Campo | Descripción |
+| :---: |   :---:     |
+| Player  | Name of the player |
+| Pos  | Position of the player |
+|Age| Age|
+|Tm| Team|
+|G| Games|
+|GS| Games Started|
+|MP| Minutes Played Per Game|
+|FG| field goals per game|
+|FGA| Field goals attempts per game|
+|FG%| field goal %|
+|3P'| 3 points fg per gam|
+|3PA| 3 points attempts per game|
+|3P%| 3 point %|
+|2P'| 2 points fg per game|
+|2PA| 2 points attempts per game|
+|2P%'| 2 point %|
+|eFG%  |Effective field goal % (This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal.)|
+|FT  | free throws per game|
+|FTA  |free throws attempts per game|
+|FT%  |free throws %|
+|ORB  | offensive rebounds per game|
+|DRB| defensive rebounds per game|
+|TRB| total rebounds per game|
+|AST| Assists per game|
+|STL| Steals per game|
+|BLK| blocks per game|
+|TOV| turnovers per game|
+|PF| Personal Fouls per game|
+|PTS| points per game|
 
 
