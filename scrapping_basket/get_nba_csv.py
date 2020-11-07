@@ -3,9 +3,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-def get_nba_csv(year):
-    url = f"https://www.basketball-reference.com/leagues/NBA_{year}_per_game.html"
-    # this is the HTML from the given URL
+def get_nba_csv(url, several = True):
+
     html = urlopen(url)
     soup = BeautifulSoup(html, 'html.parser')
     # use findALL() to get the column headers
@@ -24,7 +23,16 @@ def get_nba_csv(year):
 
     stats = pd.DataFrame(player_stats, columns = headers)
 
-    csv_file = stats.to_csv("/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/output_csv/nba_stats.csv")
+    from pathlib import Path
+
+    count = 1
+    my_file = Path(f"/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/output_csv/nba_stats_{count}.csv")
+
+    if my_file.is_file():
+        pass
+    else:
+        count = count + 1
+        csv_file = stats.to_csv(f"/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/output_csv/nba_stats_{1}.csv")
 
     return csv_file
 
