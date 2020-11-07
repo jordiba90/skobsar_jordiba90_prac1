@@ -1,5 +1,4 @@
 import scrapping_basket.get_nba_csv as gc
-import scrapping_basket.get_teams as gt
 
 
 def main(url):

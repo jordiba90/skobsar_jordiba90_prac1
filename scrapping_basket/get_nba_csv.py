@@ -1,6 +1,7 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
+from pathlib import Path
 
 
 def get_nba_csv(url, several = True):
@@ -22,8 +23,6 @@ def get_nba_csv(url, several = True):
                 for i in range(len(rows))]
 
     stats = pd.DataFrame(player_stats, columns = headers)
-
-    from pathlib import Path
 
     count = 1
     my_file = Path(f"/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/output_csv/nba_stats_{count}.csv")
