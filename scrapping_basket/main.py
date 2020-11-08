@@ -13,5 +13,5 @@ if __name__ == "__main__":
     url_teams_wins = "https://www.basketball-reference.com/leagues/NBA_wins.html"
 
 
-    main(url_teams_wins)
+    main(url_players)
 
