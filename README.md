@@ -3,6 +3,7 @@
 
 ## Extracción de datos estadísticos sobre el rendimiento de los jugadores de la NBA para determinar las relaciones que hay entre las diferentes métricas, el rendimiento y las victorias de un equipo en una temporada. <h2>
 
+## Hipótesis inicial: ¿Prescindir del tiro de media distancia puede dar mas puntos, y por tanto más partidos a un equipo? <h2>
 Extracción de la información en forma de csv <h3>
 
 
@@ -70,7 +71,7 @@ open ouput_csv/nba_stats.csv
 - [X] Preprocessing of data: Missing value treatment
 - [X] Get first metrics 
 
-- [] Answer the initial hypothesis relating the FG data off al players, then related it with the team data for a given year and correlate if a lower %2FG in mid distance throw turns in higher victories to a team in a season. 
+- [ ] Answer the initial hypothesis relating the FG data off al players, then related it with the team data for a given year and correlate if a lower %2FG in mid distance throw turns in higher victories to a team in a season. 
 
 
 
