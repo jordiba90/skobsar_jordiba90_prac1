@@ -8,8 +8,15 @@ Extracción de la información en forma de csv:
 
 How to use:
 ```
-#export PYTHONPATH
+export PYTHONPATH=/path/to/your/machine/here
+python scraping_basket/main.py
+open ouput_csv/nba_stats.csv
+```
 
+Example:
+
+```
+export PYTHONPATH=/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1
 python scraping_basket/main.py
 open ouput_csv/nba_stats.csv
 ```
