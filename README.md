@@ -91,6 +91,6 @@ open analysis/type_of_variables.csv
 - [X] Get first metrics 
 
 - [ ] Answer the initial hypothesis relating the FG data off al players, then related it with the team data for a given year and correlate if a lower %2FG in mid distance throw turns in higher victories to a team in a season. 
-
+- [ ] Unit testing
 
 
