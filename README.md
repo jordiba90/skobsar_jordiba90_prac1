@@ -8,14 +8,14 @@ Extracción de la información en forma de csv <h3>
 
 
 
-**How to use:** <h4>
+How to use: <h4>
 ```
 export PYTHONPATH=/path/to/your/machine/here
 python scraping_basket/main.py
 open ouput_csv/nba_stats.csv
 ```
 
-**Example:** <h4>
+Example: <h4>
 
 ```
 export PYTHONPATH=/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1
@@ -23,7 +23,7 @@ python scraping_basket/main.py
 open ouput_csv/nba_stats.csv
 ```
 
-**Output csv description:** <h3>
+Output csv description: <h3>
 
 | Campo | Descripción |
 | :---: |   :---:     |
@@ -57,12 +57,15 @@ open ouput_csv/nba_stats.csv
 |PF| Personal Fouls per game|
 |PTS| points per game|
 
-**Preprocessing the data automation:*** <h3>
+Preprocessing the data automation: <h3>
 
-**Automate generation of all variable histograms to preprocess the data:** <h4>
+Automate generation of all variable histograms to preprocess the data: <h4>
 
 ![GitHub Logo](/Users/Stephi/Desktop/BLK.png)
+Format: ![Alt Text](url)
+
 ![GitHub Logo](/Users/Stephi/Desktop/FG.png)
+Format: ![Alt Text](url)
 
 # Current status and future prospects <h1>
 
