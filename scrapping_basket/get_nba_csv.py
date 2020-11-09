@@ -14,10 +14,6 @@ def get_data(path):
 file1 = get_data("output_csv/nbd_satats_2.csv")
 
 def get_nba_csv(url, several = True):
-    count = 1
-    if os.path.exists(file1):
-        return
-    else:
 
         html = urlopen(url)
         soup = BeautifulSoup(html, 'html.parser')
@@ -39,10 +35,7 @@ def get_nba_csv(url, several = True):
 
 
         stats = pd.DataFrame(player_stats, columns = headers)
-        csv_file = stats.to_csv(f"/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/output_csv/nba_stats_{count}.csv")
-
-    #return csv_file
-
+        csv_file = stats.to_csv(f"/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/output_csv/nba_stats.csv")
 
 
 

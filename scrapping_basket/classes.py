@@ -1,14 +1,8 @@
-
+##Classes for future implementation
 
 def stats_player(name_player, data_df):
     condition = data_df["Player" == name_player]
     df_single_player = data_df[condition]
-
-
-
-
-
-
 
 
 class Player():

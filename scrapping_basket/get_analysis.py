@@ -7,8 +7,8 @@ from pathlib import Path
 def get_analysis(csv):
     """
     Description: Function to preprocess the data set to perform the analysis
-    :param csv:
-    :return:
+    :param csv: Resulting csv from scrapping
+    :return: void
     """
 
     df_nba = pd.read_csv(csv)
@@ -37,41 +37,6 @@ def get_analysis(csv):
             plt.savefig(os.path.join(analysis, f"{col}.png"))
         except ValueError:
             print('This column can not be represented as a histogram')
-
-def preprocessing_dataset(csv):
-
-    df_nba = pd.read_csv(csv)
-
-# 1 Query for player --> Player --> (1/2/3% numericos 1 jugador)  !!
-# 2 Query for team --> Team --> for player in team: Query Player (numericos todos los jugadores, wins)
-# 3 Visualization --> for team in teams --> Query Team --> numerico teams--> all teams (1,2,3, barplot)
-
-
-
-
-
-    """
-
-    age_players = df_nba["Age"]
-
-
-    plt.hist(age_players)
-    plt.title("Age players")
-
-    count = 1
-    my_file = Path(f"/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/histogram/histogram_{count}.csv")
-
-    if my_file.is_file():
-
-        count = count + 1
-        output = f"histogram_{count}.png"
-        path = "/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1/histograms"
-        output = os.path.join(path, output)
-        plt.savefig(output)
-
-    else:
-        pass
-    """
 
 
 
