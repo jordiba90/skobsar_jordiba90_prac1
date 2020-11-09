@@ -1,20 +1,20 @@
 
 # PRAC 1 asignatura tipología de datos, Master Degree Data Science, UOC. Semestre 1 curso 20/21. <h1> 
 
-## Extracción de datos estadísticos sobre el rendimiento de los jugadores de la NBA para determinar las relaciones que hay entre las diferentes métricas, el rendimiento y las victorias de un equipo en una temporada. 
+## Extracción de datos estadísticos sobre el rendimiento de los jugadores de la NBA para determinar las relaciones que hay entre las diferentes métricas, el rendimiento y las victorias de un equipo en una temporada. <h2>
 
-###Extracción de la información en forma de csv 
+###Extracción de la información en forma de csv <h3>
 
 
 
-####**How to use:**
+####**How to use:** <h4>
 ```
 export PYTHONPATH=/path/to/your/machine/here
 python scraping_basket/main.py
 open ouput_csv/nba_stats.csv
 ```
 
-####**Example:**
+####**Example:** <h4>
 
 ```
 export PYTHONPATH=/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1
@@ -22,7 +22,7 @@ python scraping_basket/main.py
 open ouput_csv/nba_stats.csv
 ```
 
-####**nba_stats per year csv description:** 
+####**nba_stats per year csv description:** <h4>
 
 | Campo | Descripción |
 | :---: |   :---:     |
@@ -56,14 +56,14 @@ open ouput_csv/nba_stats.csv
 |PF| Personal Fouls per game|
 |PTS| points per game|
 
-###Preprocessing the data automation:
+###Preprocessing the data automation: <h3>
 
-####Automate generation of all variable histograms to preprocess the data: 
+####Automate generation of all variable histograms to preprocess the data: <h4>
 
 ![GitHub Logo](/Users/Stephi/Desktop/BLK.png)
 ![GitHub Logo](/Users/Stephi/Desktop/FG.png)
 
-# Current status and future prospects
+# Current status and future prospects <h1>
 
 
 - [X] Web Scrapping to extract the nba stats and convert it to a csv file
