@@ -27,7 +27,8 @@ def get_analysis(csv):
     number_of_nans = df_nba.isna().sum()
     number_of_nans.to_csv(os.path.join(analysis, "number_of_nans.csv"))
 
-    ####All histogtrams
+    ####All histogtrams#####
+
     df = df_nba
     for col in df.columns:
         try:
