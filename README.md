@@ -10,6 +10,8 @@ Hipótesis inicial: ¿Prescindir del tiro de media distancia puede dar mas punto
 Extracción de la información en forma de csv <h4>
 
 How to use: <h3>
+
+**USE DATA FROM https://www.basketball-reference.com**
 ```
 export PYTHONPATH=/path/to/your/machine/here
 
