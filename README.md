@@ -61,11 +61,27 @@ Preprocessing the data automation: <h3>
 
 Automate generation of all variable histograms to preprocess the data: <h4>
 
-![GitHub Logo](/Users/Stephi/Desktop/BLK.png)
-Format: ![Alt Text](https://github.com/images/logo.png)
+- [X] Missing value treatment: eliminate blanck players
+- [X] Treatment of the missing values as 0 values
+- [X] Number of NaNs csv
+```
+open analysis/number_of_nans.csv 
+```
+- [X] Histogram of all variables in the dataset
 
-![GitHub Logo](/Users/Stephi/Desktop/FG.png)
-Format: ![Alt Text](https://github.com/images/logo.png)
+Example to open the histogram showing the Age of the players in that year.
+```
+open analysis/Age.png 
+```
+- [X] Description of the data (count, mean, sd, min, 25%, 50%, 75%, min, max). See analysis file 
+```
+open analysis/description_data.csv 
+```
+- [X] Type of variables csv
+```
+open analysis/type_of_variables.csv 
+```
+
 
 # Current status and future prospects <h1>
 
