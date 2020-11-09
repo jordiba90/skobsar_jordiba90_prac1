@@ -3,15 +3,17 @@
 
 ## Extracción de datos estadísticos sobre el rendimiento de los jugadores de la NBA para determinar las relaciones que hay entre las diferentes métricas, el rendimiento y las victorias de un equipo en una temporada. <h2>
 
-## Hipótesis inicial: ¿Prescindir del tiro de media distancia puede dar mas puntos, y por tanto más partidos a un equipo? <h2>
-Extracción de la información en forma de csv <h3>
+## Initial hypothesis: Dispense with the medium distance shot can give more points, and therefore more games to a team? <h2>
 
+Hipótesis inicial: ¿Prescindir del tiro de media distancia puede dar mas puntos, y por tanto más partidos a un equipo? <h4>
 
+Extracción de la información en forma de csv <h4>
 
 How to use: <h3>
 ```
 export PYTHONPATH=/path/to/your/machine/here
-python scraping_basket/main.py
+
+python scraping_basket/main.py -url "https://www.url_of_your_basketball_data_here.html"
 open ouput_csv/nba_stats.csv
 ```
 
@@ -19,7 +21,7 @@ Example: <h3>
 
 ```
 export PYTHONPATH=/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1
-python scraping_basket/main.py
+python scrapping_basket/main.py -url "https://www.basketball-reference.com/leagues/NBA_2019_per_game.html"
 open ouput_csv/nba_stats.csv
 ```
 
@@ -73,11 +75,11 @@ Example to open the histogram showing the Age of the players in that year.
 ```
 open analysis/Age.png 
 ```
-- [X] Description of the data (count, mean, sd, min, 25%, 50%, 75%, min, max). See analysis file 
+- [X] Description of the data (count, mean, sd, min, 25%, 50%, 75%, min, max). See analysis file. 
 ```
 open analysis/description_data.csv 
 ```
-- [X] Type of variables csv
+- [X] Type of variables in csv
 ```
 open analysis/type_of_variables.csv 
 ```
