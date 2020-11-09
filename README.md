@@ -3,11 +3,11 @@
 
 ## Extracción de datos estadísticos sobre el rendimiento de los jugadores de la NBA para determinar las relaciones que hay entre las diferentes métricas, el rendimiento y las victorias de un equipo en una temporada. <h2>
 
-###Extracción de la información en forma de csv <h3>
+Extracción de la información en forma de csv <h3>
 
 
 
-####**How to use:** <h4>
+**How to use:** <h4>
 ```
 export PYTHONPATH=/path/to/your/machine/here
 python scraping_basket/main.py
