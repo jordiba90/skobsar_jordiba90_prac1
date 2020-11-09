@@ -14,7 +14,7 @@ python scraping_basket/main.py
 open ouput_csv/nba_stats.csv
 ```
 
-####**Example:** <h4>
+**Example:** <h4>
 
 ```
 export PYTHONPATH=/Users/Stephi/Documents/academic/UOC/tercer_semestre/tipologia/PRAC1/skobsar_jordiba90_prac1
@@ -22,7 +22,7 @@ python scraping_basket/main.py
 open ouput_csv/nba_stats.csv
 ```
 
-####**nba_stats per year csv description:** <h4>
+**Output csv description:** <h3>
 
 | Campo | Descripción |
 | :---: |   :---:     |
@@ -56,9 +56,9 @@ open ouput_csv/nba_stats.csv
 |PF| Personal Fouls per game|
 |PTS| points per game|
 
-###Preprocessing the data automation: <h3>
+**Preprocessing the data automation:*** <h3>
 
-####Automate generation of all variable histograms to preprocess the data: <h4>
+**Automate generation of all variable histograms to preprocess the data:** <h4>
 
 ![GitHub Logo](/Users/Stephi/Desktop/BLK.png)
 ![GitHub Logo](/Users/Stephi/Desktop/FG.png)
